@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+# Company Website – Jekyll (GitHub Pages)
 
-You can use the [editor on GitHub](https://github.com/lauji-source/lauji-source.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Multilingual company site built with Jekyll for GitHub Pages.  
+**Languages:** English, French, Chinese, Spanish.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Structure
 
-### Markdown
+- **`/`** – English (default)
+- **`/fr/`** – Français
+- **`/zh/`** – 中文
+- **`/es/`** – Español
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Local development
 
-```markdown
-Syntax highlighted code block
+1. Install Ruby and Bundler, then:
 
-# Header 1
-## Header 2
-### Header 3
+   ```bash
+   bundle install
+   bundle exec jekyll serve
+   ```
 
-- Bulleted
-- List
+2. Open **http://127.0.0.1:4000** (or the URL Jekyll prints).
 
-1. Numbered
-2. List
+## Deploy on GitHub Pages
 
-**Bold** and _Italic_ and `Code` text
+1. Push this repo to GitHub.
+2. In the repo: **Settings → Pages**.
+3. Under **Source**, choose **Deploy from a branch**.
+4. Branch: **main** (or **master**), folder: **/ (root)**.
+5. Save. The site will be at `https://<username>.github.io/<repo-name>/`.
 
-[Link](url) and ![Image](src)
+If the site is in a project repo (e.g. `websiteLaujiFR`), set in `_config.yml`:
+
+```yaml
+baseurl: "/websiteLaujiFR"
+url: "https://yourusername.github.io"
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Customization
 
-### Jekyll Themes
+- **Company name / meta:** `_config.yml`
+- **Texts (all languages):** `_data/translations/`  
+  - `en.yml`, `fr.yml`, `zh.yml`, `es.yml`
+- **Activity images:** replace placeholders in `assets/images/`:
+  - `activity-a.svg` → your image for Activity A (e.g. `activity-a.jpg`)
+  - `activity-b.svg` → your image for Activity B (e.g. `activity-b.jpg`)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lauji-source/lauji-source.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you use `.jpg`/`.png`, update the image paths in `_includes/activities.html` to match the new filenames.

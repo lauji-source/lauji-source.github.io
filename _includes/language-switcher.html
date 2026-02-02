@@ -1,0 +1,17 @@
+{% assign lang = page.lang | default: site.default_lang %}
+<div class="language-switcher">
+  <span class="lang-label">{{ site.data.translations[lang].lang_name }}</span>
+  <ul class="lang-list">
+    {% for l in site.languages %}
+      {% if l == lang %}
+        <li><span class="lang-current">{{ site.data.translations[l].lang_name }}</span></li>
+      {% else %}
+        {% if l == site.default_lang %}
+          <li><a href="{{ '/' | relative_url }}">{{ site.data.translations[l].lang_name }}</a></li>
+        {% else %}
+          <li><a href="{{ '/' | append: l | append: '/' | relative_url }}">{{ site.data.translations[l].lang_name }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

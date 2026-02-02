@@ -1,2 +1,24 @@
-theme: jekyll-theme-cayman
+# Jekyll configuration for Company GitHub Pages (lauji-source.github.io)
+title: "Your Company"
+description: "Company presentation - Activities A & B"
+# Root of domain: empty for user/org Pages (username.github.io); use e.g. "/repo-name" for project Pages
+baseurl: ""
+# Public site URL. When custom domain (lauji.fr) forwarding is configured, set to "https://lauji.fr"
+url: "https://lauji-source.github.io"
+
+# Build settings
 markdown: kramdown
+permalink: pretty
+highlighter: rouge
+
+# Multilingual: supported locales
+languages: ["en", "fr", "zh", "es"]
+default_lang: "en"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor

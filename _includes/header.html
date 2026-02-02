@@ -1,0 +1,15 @@
+<header class="header">
+  <div class="container header-inner">
+    {% if page.lang == site.default_lang or page.lang == nil %}
+  <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+{% else %}
+  <a href="{{ '/' | append: page.lang | append: '/' | relative_url }}" class="logo">{{ site.title }}</a>
+{% endif %}
+    <nav class="nav">
+      <a href="#about">{{ t.nav.about }}</a>
+      <a href="#activities">{{ t.nav.activities }}</a>
+      <a href="#contact">{{ t.nav.contact }}</a>
+    </nav>
+    {% include language-switcher.html %}
+  </div>
+</header>

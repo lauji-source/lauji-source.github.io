@@ -1,0 +1,28 @@
+<section id="activities" class="section activities">
+  <div class="container">
+    <h2 class="section-title">{{ t.activities.title }}</h2>
+    <p class="section-subtitle">{{ t.activities.subtitle }}</p>
+    <div class="activity-grid">
+      <div class="activity-card">
+        <div class="activity-image-placeholder" aria-label="{{ t.activities.activity_a.title }}">
+          <img src="{{ '/assets/images/activity-a.svg' | relative_url }}" alt="{{ t.activities.activity_a.title }}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="placeholder-fallback">Activity A<br>{{ t.activities.activity_a.title }}</span>
+        </div>
+        <div class="activity-content">
+          <h3>{{ t.activities.activity_a.title }}</h3>
+          <p>{{ t.activities.activity_a.description }}</p>
+        </div>
+      </div>
+      <div class="activity-card">
+        <div class="activity-image-placeholder" aria-label="{{ t.activities.activity_b.title }}">
+          <img src="{{ '/assets/images/activity-b.svg' | relative_url }}" alt="{{ t.activities.activity_b.title }}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="placeholder-fallback">Activity B<br>{{ t.activities.activity_b.title }}</span>
+        </div>
+        <div class="activity-content">
+          <h3>{{ t.activities.activity_b.title }}</h3>
+          <p>{{ t.activities.activity_b.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

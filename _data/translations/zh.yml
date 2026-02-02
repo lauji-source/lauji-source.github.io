@@ -1,0 +1,35 @@
+# Chinese translations
+lang_code: "zh"
+lang_name: "中文"
+
+nav:
+  home: "首页"
+  about: "关于我们"
+  activities: "我们的业务"
+  contact: "联系我们"
+
+hero:
+  title: "欢迎来到我们公司"
+  subtitle: "卓越与创新，竭诚为您服务"
+
+about:
+  title: "关于我们"
+  text: "我们是一家致力于提供优质服务和价值的活力企业。我们的团队将专业与热情相结合，在我们的两大主要业务领域满足您的需求。"
+
+activities:
+  title: "我们的业务"
+  subtitle: "了解我们的业务内容"
+  activity_a:
+    title: "业务 A"
+    description: "业务 A 的说明。请将此处替换为您的实际内容，并在 assets 文件夹中添加您的图片。"
+  activity_b:
+    title: "业务 B"
+    description: "业务 B 的说明。请将此处替换为您的实际内容，并在 assets 文件夹中添加您的图片。"
+
+contact:
+  title: "联系我们"
+  text: "如需更多信息，请与我们联系。"
+  email: "contact@company.com"
+
+footer:
+  rights: "版权所有。"

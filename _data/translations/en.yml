@@ -1,0 +1,35 @@
+# English translations
+lang_code: "en"
+lang_name: "English"
+
+nav:
+  home: "Home"
+  about: "About Us"
+  activities: "Our Activities"
+  contact: "Contact"
+
+hero:
+  title: "Welcome to Our Company"
+  subtitle: "Excellence and innovation at your service"
+
+about:
+  title: "About Us"
+  text: "We are a dynamic company dedicated to delivering quality and value. Our team combines expertise and passion to meet your needs across our two main areas of activity."
+
+activities:
+  title: "Our Activities"
+  subtitle: "Discover what we do"
+  activity_a:
+    title: "Activity A"
+    description: "Description of Activity A. Replace this text with your actual content and add your image in the assets folder."
+  activity_b:
+    title: "Activity B"
+    description: "Description of Activity B. Replace this text with your actual content and add your image in the assets folder."
+
+contact:
+  title: "Contact"
+  text: "Get in touch with us for more information."
+  email: "contact@company.com"
+
+footer:
+  rights: "All rights reserved."

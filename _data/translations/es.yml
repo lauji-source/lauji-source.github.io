@@ -1,0 +1,35 @@
+# Spanish translations
+lang_code: "es"
+lang_name: "Español"
+
+nav:
+  home: "Inicio"
+  about: "Nosotros"
+  activities: "Nuestras actividades"
+  contact: "Contacto"
+
+hero:
+  title: "Bienvenido a Nuestra Empresa"
+  subtitle: "Excelencia e innovación a su servicio"
+
+about:
+  title: "Sobre nosotros"
+  text: "Somos una empresa dinámica dedicada a ofrecer calidad y valor. Nuestro equipo combina experiencia y pasión para satisfacer sus necesidades en nuestras dos principales áreas de actividad."
+
+activities:
+  title: "Nuestras actividades"
+  subtitle: "Descubra lo que hacemos"
+  activity_a:
+    title: "Actividad A"
+    description: "Descripción de la Actividad A. Sustituya este texto por su contenido real y añada su imagen en la carpeta assets."
+  activity_b:
+    title: "Actividad B"
+    description: "Descripción de la Actividad B. Sustituya este texto por su contenido real y añada su imagen en la carpeta assets."
+
+contact:
+  title: "Contacto"
+  text: "Póngase en contacto con nosotros para más información."
+  email: "contact@company.com"
+
+footer:
+  rights: "Todos los derechos reservados."

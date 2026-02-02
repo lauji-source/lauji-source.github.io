@@ -1,0 +1,35 @@
+# French translations
+lang_code: "fr"
+lang_name: "Français"
+
+nav:
+  home: "Accueil"
+  about: "À propos"
+  activities: "Nos activités"
+  contact: "Contact"
+
+hero:
+  title: "Bienvenue chez Notre Entreprise"
+  subtitle: "Excellence et innovation à votre service"
+
+about:
+  title: "À propos de nous"
+  text: "Nous sommes une entreprise dynamique dédiée à la qualité et à la valeur. Notre équipe allie expertise et passion pour répondre à vos besoins dans nos deux domaines d'activité principaux."
+
+activities:
+  title: "Nos activités"
+  subtitle: "Découvrez ce que nous faisons"
+  activity_a:
+    title: "Activité A"
+    description: "Description de l'Activité A. Remplacez ce texte par votre contenu et ajoutez votre image dans le dossier assets."
+  activity_b:
+    title: "Activité B"
+    description: "Description de l'Activité B. Remplacez ce texte par votre contenu et ajoutez votre image dans le dossier assets."
+
+contact:
+  title: "Contact"
+  text: "Contactez-nous pour plus d'informations."
+  email: "contact@company.com"
+
+footer:
+  rights: "Tous droits réservés."
