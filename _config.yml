@@ -1,10 +1,12 @@
-# Jekyll configuration for Company GitHub Pages (lauji-source.github.io)
+# Jekyll configuration for Company GitHub Pages
 title: "Your Company"
 description: "Company presentation - Activities A & B"
-# Root of domain: empty for user/org Pages (username.github.io); use e.g. "/repo-name" for project Pages
+
+# GitHub Pages URL: empty = site at domain root (user/org page). Use e.g. "/repo-name" for project pages.
 baseurl: ""
-# Public site URL. When custom domain (lauji.fr) forwarding is configured, set to "https://lauji.fr"
-url: "https://lauji-source.github.io"
+
+# Canonical site URL. Keep GitHub Pages URL until custom domain (e.g. lauji.fr) forwarding is configured.
+url: "https://lauji-source.github.io/"
 
 # Build settings
 markdown: kramdown
